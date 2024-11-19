@@ -2,7 +2,9 @@ html{
     height: 100%;
     width: 100%;
 }
-
+.as{
+    text-decoration: dotted;
+}
 #lock{
     text-align: center;
     justify-content: center;
