@@ -15,7 +15,7 @@ html{
     text-decoration: underline;
 }
 #lock{
-    border: 2px black solid;
-    padding: 5px black solid;
-    margin: 5px 5px black solid;
+    border: 10px black solid;
+    padding: 30px;
+    margin: 10px black solid;
 }
