@@ -14,3 +14,8 @@ html{
     text-align: center;
     text-decoration: underline;
 }
+#id{
+    border: 5px black solid;
+    padding: 5px black solid;
+    margin: 5px black solid;
+}
