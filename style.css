@@ -3,8 +3,7 @@ html{
     width: 100%;
 }
 .as{
-    text-align: center;
-    justify-content: center;
+    text-decoration: dotted;
 }
 #lock{
     text-align: center;
