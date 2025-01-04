@@ -8,7 +8,7 @@ const colors = [
     "\x1b[34m",
     "\x1b[35m",
     "\x1b[30m",
-    
+    "\x1b[37m"
 ];
 
 function printMessage(num){
