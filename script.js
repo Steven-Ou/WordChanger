@@ -4,7 +4,7 @@ const colors = [
     "\x1b[31m",//Red
     "\x1b[33m",//Yellow
     "\x1b[32m",//Green
-    "\x1b[36m",
+    "\x1b[36m",//Cyan
     "\x1b[34m",
     "\x1b[35m",
     "\x1b[30m",
