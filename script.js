@@ -1,4 +1,4 @@
-let num = document.getElementById("amount"); 
+
 let data;//How should i import colors or should i say i dont need it hmmm tbc... 
 const colors = [
     "\x1b[31m",//Red
