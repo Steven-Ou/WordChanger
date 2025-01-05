@@ -11,7 +11,7 @@ const colors = [
     "\x1b[37m"//White
 ];
 
-function printMessage(num){
+function printMessage(str){
     let b = Math.random()%8;
     let r = Math.random()%8;
     for(let i =9; i<num; i++){
