@@ -18,6 +18,6 @@ function printMessage(str){
                 output += colors[(randIndex +i)%8]+str[i];
             }    
         }
-        output
+        output+= colors[(randIndex +i)%8]+str[i];
     } 
 }
