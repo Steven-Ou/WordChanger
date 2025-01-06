@@ -20,4 +20,5 @@ function printMessage(str){
         }
         output+= colors[(randIndex +i)%8]+str[i];
     } 
+    console.log(output + "\x1b[0m");
 }
