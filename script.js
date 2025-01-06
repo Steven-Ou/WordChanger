@@ -1,3 +1,4 @@
+//Only JS method, without html css.
 const colors = [
     "\x1b[31m",//Red
     "\x1b[33m",//Yellow
