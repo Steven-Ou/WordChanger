@@ -22,3 +22,5 @@ function printMessage(str){
     } 
     console.log(output + "\x1b[0m"); //Resets the color
 }
+
+const prompt = require('prompt-sync')();
