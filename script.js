@@ -13,6 +13,8 @@ function printMessage(str){
     const randIndex = Math.floor(Math.random()*8);
     let output = "";
     for(let i =0; i<str.length; i++){
-        
+        for(let j =0; j<10000;j++){
+            
+        }
     } 
 }
