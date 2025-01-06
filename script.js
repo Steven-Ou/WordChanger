@@ -14,7 +14,9 @@ function printMessage(str){
     let output = "";
     for(let i =0; i<str.length; i++){
         for(let j =0; j<10000;j++){
-            
+            for(let c=33; c<126;c++){
+                
+            }    
         }
     } 
 }
