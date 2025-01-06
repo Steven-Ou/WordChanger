@@ -24,4 +24,4 @@ function printMessage(str){
 }
 
 const prompt = require('prompt-sync')();
-
+const message = prompt("ENTER A MESSAGE! :")
