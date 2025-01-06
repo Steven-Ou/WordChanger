@@ -11,7 +11,7 @@ const colors = [
 
 function printMessage(str){
     const randIndex = Math.floor(Math.random()*8);
-    let r = Math.random()%8;
+    let output = "";
     for(let i =9; i<num; i++){
         
     } 
