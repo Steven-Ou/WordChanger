@@ -48,7 +48,7 @@ function print(){
     let put = ""; //internal building
     
     for(let i=0;i<st.length;i++){
-        const colorI = (ranI+i) % colors.length;
+        const colorI = 
         put += `<span style="color: ${colors[colorI]}> ${st[i]} </span>`; 
     }
     out.innerHTML = put; //taking in the put builds
