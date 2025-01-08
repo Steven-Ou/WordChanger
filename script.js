@@ -49,7 +49,8 @@ function print(){
     
     for(let i=0;i<st.length;i++){
         const colorI = i% colors.length;
-        put += `<span style="color: ${colors[colorI]}> ${st[i]} </span>`; 
+        const char = st[i]; 
+        put += `<span style="color: ${colors[colorI]}> ${char} </span>`; 
     }
     out.innerHTML = put; //taking in the put builds
 }
