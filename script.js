@@ -42,7 +42,7 @@ const colors = [
 ];
 
 function print(){
-    const st = document.getElementById("amount").value;
+    const st = document.getElementById("amount").value; //get the word
     const out = document.getElementById("output");
-    
+
 }
