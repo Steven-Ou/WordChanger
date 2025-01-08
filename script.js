@@ -37,4 +37,5 @@ const colors = [
     "\x1b[36m",//Cyan
     "\x1b[34m",//Blue
     "\x1b[35m",//Purple
+    "\x1b[30m",//Black
 ];
