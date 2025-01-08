@@ -31,15 +31,15 @@ printMessage(message);
 */
 //Method of combining HTML CSS AND JS
 const colors = [
-    "\x1b[31m",//Red
-    "\x1b[33m",//Yellow
-    "\x1b[32m",//Green
-    "\x1b[36m",//Cyan
-    "\x1b[34m",//Blue
-    "\x1b[35m",//Purple
-    "\x1b[30m",//Black
-    "\x1b[37m"//White
-];
+    "red",    // Red
+    "yellow", // Yellow
+    "green",  // Green
+    "cyan",   // Cyan
+    "blue",   // Blue
+    "purple", // Purple
+    "black",  // Black
+    "white"   // White
+  ];
 
 function print(){
     const st = document.getElementById("amount").value; //get the word
