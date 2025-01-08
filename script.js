@@ -45,7 +45,7 @@ function print(){
     const st = document.getElementById("amount").value; //get the word
     const out = document.getElementById("output");
     const ranI = Math.floor(Math.random()*colors.length);
-    let put = "";
+    let put = ""; //internal building
     
     for(let i=0;i<st.length;i++){
         const colorI = (ranI+i) % colors.length;
