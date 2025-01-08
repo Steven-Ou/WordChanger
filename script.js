@@ -48,6 +48,7 @@ function print(){
     let put = "";
     
     for(let i=0;i<st.length;i++){
-        const colorI = (ranI+i) %
+        const colorI = (ranI+i) % colors.length;
+        put += `<div style="color: ${colors[colorI]}> ${st[i]} </div>`; 
     }
 }
