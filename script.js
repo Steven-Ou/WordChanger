@@ -42,5 +42,6 @@ const colors = [
 ];
 
 function print(){
-
+    const st = document.getElementById("amount").value;
+    
 }
