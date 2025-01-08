@@ -33,6 +33,7 @@ printMessage(message);
 const colors = [
     "\x1b[31m",//Red
     "\x1b[33m",//Yellow
-    "green",  // Green
+    "\x1b[32m",//Green
     "cyan",   // Cyan
+    "blue",   // Blue
 ];
