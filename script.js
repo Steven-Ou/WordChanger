@@ -43,5 +43,6 @@ const colors = [
 
 function print(){
     const st = document.getElementById("amount").value;
+    const out = document.getElementById("output");
     
 }
