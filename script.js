@@ -51,5 +51,5 @@ function print(){
         const colorI = (ranI+i) % colors.length;
         put += `<div style="color: ${colors[colorI]}> ${st[i]} </div>`; 
     }
-    out.innerHTML = put; //taiking in the put builds
+    out.innerHTML = put; //taking in the put builds
 }
