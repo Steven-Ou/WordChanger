@@ -46,4 +46,6 @@ function print(){
     const out = document.getElementById("output");
     const ranI = Math.floor(Math.random()*colors.length);
     let put = "";
+    
+    
 }
