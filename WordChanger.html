@@ -14,7 +14,7 @@
         <h2 id="as">Something Cool Will Happen!</h2>
         <div class="ab">
             <input  type="text" id="amount" placeholder="Enter a sentence" style="text-align:center;">
-            <button onclick='printMessage()'>Enter</button>
+            <button onclick='print()'>Enter</button>
         </div>
         <h3 style="text-decoration: underline;">Output:</h3>
         <div id="output">
@@ -22,38 +22,7 @@
     
         </div>
     </div>
-    <script src="script.js">
-    
-    const colors = [
-      "red",    // Red
-      "yellow", // Yellow
-      "green",  // Green
-      "cyan",   // Cyan
-      "blue",   // Blue
-      "purple", // Purple
-      "black",  // Black
-      "white"   // White
-    ];
-
-    function printMessage() {
-      const str = document.getElementById("amount").value; // Get input text
-      const outputDiv = document.getElementById("output"); // Get the output div
-      let outputHTML = ""; // Initialize the output string
-
-      // Loop through each character in the string
-      for (let i = 0; i < str.length; i++) {
-        const colorIndex = i % colors.length; // Pick a color in a cyclic manner
-        const char = str[i]; // Get the character at the current index
-
-        // Append the character wrapped in a span tag with a color
-        outputHTML += `<span style="color: ${colors[colorIndex]}">${char}</span>`;
-      }
-
-      outputDiv.innerHTML = outputHTML; // Display the colored string
-    }
- 
-
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

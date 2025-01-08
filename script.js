@@ -31,26 +31,30 @@ printMessage(message);
 */
 //Method of combining HTML CSS AND JS
 const colors = [
-    "\x1b[31m",//Red
-    "\x1b[33m",//Yellow
-    "\x1b[32m",//Green
-    "\x1b[36m",//Cyan
-    "\x1b[34m",//Blue
-    "\x1b[35m",//Purple
-    "\x1b[30m",//Black
-    "\x1b[37m"//White
-];
-
-function print(){
-    const st = document.getElementById("amount").value; //get the word
-    const out = document.getElementById("output");
-    const ranI = Math.floor(Math.random()*colors.length);
-    let put = ""; //internal building
-    
-    for(let i=0;i<st.length;i++){
-        const colorI = i% colors.length;
-        const char = st[i]; 
-        put += `<span style="color: ${colors[colorI]}> ${char} </span>`; 
+    "red",    // Red
+    "yellow", // Yellow
+    "green",  // Green
+    "cyan",   // Cyan
+    "blue",   // Blue
+    "purple", // Purple
+    "black",  // Black
+    "white"   // White
+  ];
+  
+  function printMessage() {
+    const str = document.getElementById("amount").value; // Get input text
+    const outputDiv = document.getElementById("output"); // Get the output div
+    let outputHTML = ""; // Initialize the output string
+  
+    // Loop through each character in the string
+    for (let i = 0; i < str.length; i++) {
+      const colorIndex = i % colors.length; // Pick a color in a cyclic manner
+      const char = str[i]; // Get the character at the current index
+  
+      // Append the character wrapped in a span tag with a color
+      outputHTML += `<span style="color: ${colors[colorIndex]}">${char}</span>`;
     }
-    out.innerHTML = put; //taking in the put builds
-}
+  
+    outputDiv.innerHTML = outputHTML; // Display the colored string
+  }
+  
