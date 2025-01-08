@@ -48,6 +48,6 @@ function print(){
     let put = "";
     
     for(let i=0;i<st.length;i++){
-        
+        const colorI = (ranI+i) %
     }
 }
