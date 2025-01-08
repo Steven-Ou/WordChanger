@@ -5,15 +5,13 @@ html{
 #as{
     text-decoration: underline dotted;
 }
-#lock{
-    text-align: center;
-    justify-content: center;
-}
 .change{
     text-align: center;
     text-decoration: underline;
 }
 #lock{
+    text-align: center;
+    justify-content: center;
     border: 10px black solid;
     padding: 30px;
     margin: 10px black solid;
