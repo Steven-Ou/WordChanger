@@ -32,5 +32,5 @@ printMessage(message);
 //Method of combining HTML CSS AND JS
 const colors = [
     "\x1b[31m",//Red
-   
+    "\x1b[33m",//Yellow
 ];
