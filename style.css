@@ -18,3 +18,7 @@ html{
     padding: 30px;
     margin: 10px black solid;
 }
+#output {
+    font-family: monospace;
+    white-space: pre-wrap;
+}
