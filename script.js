@@ -47,5 +47,7 @@ function print(){
     const ranI = Math.floor(Math.random()*colors.length);
     let put = "";
     
-    
+    for(let i=0;i<st.length;i++){
+        
+    }
 }
