@@ -42,19 +42,26 @@ const colors = [
   ];
   
   function printMessage() {
-    const str = document.getElementById("amount").value; // Get input text
-    const outputDiv = document.getElementById("output"); // Get the output div
+    const str = document.getElementById("amount").value.trim(); // Get input and trim whitespace
+    const outputDiv = document.getElementById("output"); // Output container
     let outputHTML = ""; // Initialize the output string
   
-    // Loop through each character in the string
-    for (let i = 0; i < str.length; i++) {
-      const colorIndex = i % colors.length; // Pick a color in a cyclic manner
-      const char = str[i]; // Get the character at the current index
+    if (str === "") {
+      outputDiv.innerHTML = "Please enter a valid sentence.";
+      return;
+    }
   
-      // Append the character wrapped in a span tag with a color
+    // Loop through each character of the input string
+    for (let i = 0; i < str.length; i++) {
+      const colorIndex = i % colors.length; // Cycle through colors
+      const char = str[i]; // Current character
+  
+      // Append each character wrapped in a span tag with the appropriate color
       outputHTML += `<span style="color: ${colors[colorIndex]}">${char}</span>`;
     }
   
-    outputDiv.innerHTML = outputHTML; // Display the colored string
+    // Display the generated HTML in the output div
+    outputDiv.innerHTML = outputHTML;
   }
+  
   
