@@ -8,6 +8,10 @@ html, body{
     align-items: center;
     justify-content: center;
 }
+#as{
+    text-decoration: underline dotted;
+}
+
   
 #lock{
     text-align: center;
