@@ -40,3 +40,7 @@ const colors = [
     "\x1b[30m",//Black
     "\x1b[37m"//White
 ];
+
+function printMessage(){
+    
+}
