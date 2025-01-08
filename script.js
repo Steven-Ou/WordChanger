@@ -41,6 +41,6 @@ const colors = [
     "\x1b[37m"//White
 ];
 
-function printMessage(){
-    
+function print(){
+
 }
