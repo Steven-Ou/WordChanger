@@ -1,4 +1,5 @@
 //Only JS method, without html css.
+//Might not work
 /*
 const colors = [
     "\x1b[31m",//Red
