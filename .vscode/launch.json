@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/steve/html/WordChanger",
-      "program": "/Users/steve/html/WordChanger/build/Debug/outDebug"
+      "cwd": "/Users/steve/CS/WordChanger",
+      "program": "/Users/steve/CS/WordChanger/build/Debug/outDebug"
     }
   ]
 }
