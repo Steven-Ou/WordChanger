@@ -64,5 +64,5 @@ const colors = [
     // Display the generated HTML in the output div
     outputDiv.innerHTML = outputHTML;
   }
-  
+
   
