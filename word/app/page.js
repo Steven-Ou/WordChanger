@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Box>
-      <h1 class="change">WELCOME TO WORD COLOR CHANGER</h1>
+      <h1 className="change">WELCOME TO WORD COLOR CHANGER</h1>
   <div id="lock">
     <h2 id="as">Something Cool Will Happen!</h2>
     <div class="ab">
