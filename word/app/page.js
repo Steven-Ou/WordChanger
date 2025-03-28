@@ -1,4 +1,4 @@
-import { Box, Input } from "@mui/material";
+import { Box, Button, Input } from "@mui/material";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
     <h2 id="as">Something Cool Will Happen!</h2>
     <div class="ab">
       <Input type="text" id="amount" placeholder="Enter a sentence" style={{textAlign:"center"}}></Input>
-      <button onclick="printMessage()">Enter</button>
+      <Button></Button>
     </div>
     <h3 style="text-decoration: underline;">Output:</h3>
     <div id="output"></div>
