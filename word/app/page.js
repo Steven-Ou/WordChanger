@@ -8,7 +8,7 @@ export default function Home() {
   <div id="lock">
     <h2 id="as">Something Cool Will Happen!</h2>
     <div class="ab">
-      <Input type="text" id="amount" placeholder="Enter a sentence" style="text-align:center;"></Input>
+      <Input type="text" id="amount" placeholder="Enter a sentence" style={{textAlign:"center"}}></Input>
       <button onclick="printMessage()">Enter</button>
     </div>
     <h3 style="text-decoration: underline;">Output:</h3>
