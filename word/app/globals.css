@@ -27,6 +27,7 @@ html, body{
 .change{
   text-align: center;
   text-decoration: underline;
+  font-size: 30px;
 }
 
 #amount{
