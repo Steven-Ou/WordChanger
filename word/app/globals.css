@@ -14,7 +14,9 @@ html, body{
   text-decoration: underline dotted;
   text-align: center;
 }
-
+.ab{
+  text-align: center;
+}
 
 #lock{
   text-align: center;
