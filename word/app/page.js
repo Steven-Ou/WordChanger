@@ -5,7 +5,10 @@ export default function Home() {
     <div>
       <Box>
         <h1 className="change">WELCOME TO WORD COLOR CHANGER</h1>
+        <br></br>
         <h2 id="as">Something Cool Will Happen!</h2>
+        <br></br>
+        <br></br>
         <div class="ab">
           <Input type="text" id="amount" placeholder="Enter a sentence" style={{textAlign:"center"}}></Input>
           <Button>Submit</Button>
