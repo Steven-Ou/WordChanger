@@ -3,7 +3,7 @@ import { Box, Button, Input } from "@mui/material";
 export default function Home() {
   return (
     <div>
-      <Box>
+      <Box id = "lock">
         <h1 className="change">WELCOME TO WORD COLOR CHANGER</h1>
         <br></br>
         <h2 id="as">Something Cool Will Happen!</h2>
