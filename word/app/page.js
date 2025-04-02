@@ -32,3 +32,6 @@ const colors = [
   "white"   // White
 ];
 
+function printMessage(){
+  
+}
