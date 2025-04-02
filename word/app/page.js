@@ -14,6 +14,7 @@ export default function Home() {
           <Button onClick={printMessage()}>Submit</Button>
         </div>
         <h3 className="c">Output:</h3>
+        <div id="output"></div>
       </Box>
     </div>
   );
