@@ -17,7 +17,17 @@ export default function Home() {
         <div id="output"></div>
         <script src="script.js"></script>
       </Box>
-
     </div>
   );
 }
+
+const colors = [
+  "red",    // Red
+  "yellow", // Yellow
+  "green",  // Green
+  "cyan",   // Cyan
+  "blue",   // Blue
+  "purple", // Purple
+  "black",  // Black
+  "white"   // White
+];
