@@ -9,11 +9,11 @@ export default function Home() {
         <h2 id="as">Something Cool Will Happen!</h2>
         <br></br>
         <br></br>
-        <div class="ab">
+        <div className="ab">
           <Input type="text" id="amount" placeholder="Enter a sentence" style={{textAlign:"center"}}></Input>
           <Button onClick={printMessage()}>Submit</Button>
         </div>
-        <h3>Output:</h3>
+        <h3 className="">Output:</h3>
       </Box>
     </div>
   );
