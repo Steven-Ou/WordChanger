@@ -13,7 +13,7 @@ export default function Home() {
           <Input type="text" id="amount" placeholder="Enter a sentence" style={{textAlign:"center"}}></Input>
           <Button onClick={printMessage()}>Submit</Button>
         </div>
-        <h3 className="">Output:</h3>
+        <h3 className="c">Output:</h3>
       </Box>
     </div>
   );
