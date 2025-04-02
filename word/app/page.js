@@ -15,7 +15,9 @@ export default function Home() {
         </div>
         <h3 className="c">Output:</h3>
         <div id="output"></div>
+        <script src="script.js"></script>
       </Box>
+
     </div>
   );
 }
