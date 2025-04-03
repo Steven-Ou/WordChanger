@@ -33,5 +33,5 @@ const colors = [
 ];
 
 function printMessage(){
-  
+  const
 }
