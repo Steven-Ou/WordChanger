@@ -34,5 +34,5 @@ const colors = [
 
 function printMessage(){
   const str = document.getElementById("amount").ariaValueMax.trim();
-  const op = document
+  const op = document.getElementById("output");
 }
