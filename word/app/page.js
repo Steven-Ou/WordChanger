@@ -37,4 +37,7 @@ function printMessage(){
   const op = document.getElementById("output");
   let opH =""; 
   
+  if(str == ""){
+    op.innerHTML = "Please enter a valid sentence:"; 
+  }
 }
