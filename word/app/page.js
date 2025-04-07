@@ -39,5 +39,6 @@ function printMessage(){
   
   if(str == ""){
     op.innerHTML = "Please enter a valid sentence:"; 
+    return;
   }
 }
