@@ -36,4 +36,5 @@ function printMessage(){
   const str = document.getElementById("amount").ariaValueMax.trim();
   const op = document.getElementById("output");
   let opH =""; 
+  
 }
