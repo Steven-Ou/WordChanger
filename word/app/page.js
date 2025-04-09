@@ -41,7 +41,7 @@ function printMessage(){
     op.innerHTML = "Please enter a valid sentence:"; 
     return;
   }
-  for(let){
-    
+  for(let i=0;){
+
   }
 }
