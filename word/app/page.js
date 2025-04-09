@@ -33,16 +33,16 @@ const colors = [
 ];
 
 function printMessage(){
-  const str = document.getElementById("amount").ariaValueMax.trim();
-  const op = document.getElementById("output");
-  let opH =""; 
+    const str = document.getElementById("amount").ariaValueMax.trim();
+    const op = document.getElementById("output");
+    let opH =""; 
   
-  if(str == ""){
-    op.innerHTML = "Please enter a valid sentence:"; 
-    return;
-  }
-  for(let i=0; i< str.length; i++){
+    if(str == ""){
+      op.innerHTML = "Please enter a valid sentence:"; 
+      return;
+    }
+    for(let i=0; i< str.length; i++){
       const cI = i%colors.length;
-      
-  }
+
+    }
 }
