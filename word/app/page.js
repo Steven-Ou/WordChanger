@@ -4,6 +4,11 @@ export default function Home() {
   const printMessage = () => {
       const inP = document.getElementById("amount");
       const op = document.getElementById("output");
+
+      if(!inP || !op) {
+        console.error("Input or output element not found");
+        return;
+      }
       let opH =""; 
       const colors = [
         "red",    // Red
