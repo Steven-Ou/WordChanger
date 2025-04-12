@@ -13,16 +13,7 @@ export default function Home() {
       }
       
       const str = inP.value.trim(); 
-      const colors = [
-        "red",    // Red
-        "yellow", // Yellow
-        "green",  // Green
-        "cyan",   // Cyan
-        "blue",   // Blue
-        "purple", // Purple
-        "black",  // Black
-        "white"   // White
-      ];
+      
       
       if(str === ""){
         op.innerHTML = "Please enter a valid sentence:"; 
