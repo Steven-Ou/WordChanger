@@ -1,3 +1,4 @@
+'use client';
 import { Box, Button, Input } from "@mui/material";
 
 export default function Home() {
