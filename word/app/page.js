@@ -2,9 +2,7 @@ import { Box, Button, Input } from "@mui/material";
 
 export default function Home() {
   const printMessage = () => {
-      if(typeof document === "undefined") {
-        return; // Ensure this runs only in the browser
-      }
+      
       const str = document.getElementById("amount").ariaValueMax.trim();
       const op = document.getElementById("output");
       let opH =""; 
