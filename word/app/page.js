@@ -21,17 +21,6 @@ export default function Home() {
   );
 }
 
-const colors = [
-  "red",    // Red
-  "yellow", // Yellow
-  "green",  // Green
-  "cyan",   // Cyan
-  "blue",   // Blue
-  "purple", // Purple
-  "black",  // Black
-  "white"   // White
-];
-
 function printMessage(){
     if(typeof document === "undefined") {
       return; // Ensure this runs only in the browser
