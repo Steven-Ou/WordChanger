@@ -11,7 +11,7 @@ export default function Home() {
         <br></br>
         <div className="ab">
           <Input type="text" id="amount" placeholder="Enter a sentence" style={{textAlign:"center"}}></Input>
-          <Button onClick={printMessage()}>Submit</Button>
+          <Button onClick={printMessage}>Submit</Button>
         </div>
         <h3 className="c">Output:</h3>
         <div id="output"></div>
