@@ -33,6 +33,9 @@ const colors = [
 ];
 
 function printMessage(){
+    if(typeof document === "undefined") {
+      return; // Ensure this runs only in the browser
+    }
     const str = document.getElementById("amount").ariaValueMax.trim();
     const op = document.getElementById("output");
     let opH =""; 
