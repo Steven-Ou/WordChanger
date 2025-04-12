@@ -44,7 +44,7 @@ function printMessage(){
     for(let i=0; i< str.length; i++){
       const cI = i%colors.length;
       const char = str[i];
-      op += `<span style ="color:${colors[cI]}">${char}</span>`;
+      opH += `<span style ="color:${colors[cI]}">${char}</span>`;
     }
 
     op.innerHTML = opH; 
