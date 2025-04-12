@@ -39,7 +39,7 @@ function printMessage(){
       "white"   // White
     ];
     
-    if(str == ""){
+    if(str === ""){
       op.innerHTML = "Please enter a valid sentence:"; 
       return;
     }
