@@ -46,4 +46,6 @@ function printMessage(){
       const char = str[i];
       op += `<span style ="color:${colors[cI]}">${char}</span>`;
     }
+
+    op.innerHTML = opH; 
 }
