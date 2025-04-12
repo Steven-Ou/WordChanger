@@ -26,7 +26,7 @@ export default function Home() {
         op.innerHTML = "Please enter a valid sentence:"; 
         return;
       }
-      let opH ="";
+      
       for(let i=0; i< str.length; i++){
         const cI = i%colors.length;
         const char = str[i];
