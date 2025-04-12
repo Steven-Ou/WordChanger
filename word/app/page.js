@@ -28,7 +28,17 @@ function printMessage(){
     const str = document.getElementById("amount").ariaValueMax.trim();
     const op = document.getElementById("output");
     let opH =""; 
-  
+    const colors = [
+      "red",    // Red
+      "yellow", // Yellow
+      "green",  // Green
+      "cyan",   // Cyan
+      "blue",   // Blue
+      "purple", // Purple
+      "black",  // Black
+      "white"   // White
+    ];
+    
     if(str == ""){
       op.innerHTML = "Please enter a valid sentence:"; 
       return;
