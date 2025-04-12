@@ -1,6 +1,7 @@
 import { Box, Button, Input } from "@mui/material";
 
 export default function Home() {
+  
   return (
     <div>
       <Box id = "lock">
