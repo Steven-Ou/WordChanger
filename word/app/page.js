@@ -10,8 +10,7 @@ export default function Home() {
         return;
       }
       
-      const str = inP.value.trim();
-      let opH =""; 
+      const str = inP.value.trim(); 
       const colors = [
         "red",    // Red
         "yellow", // Yellow
@@ -27,6 +26,7 @@ export default function Home() {
         op.innerHTML = "Please enter a valid sentence:"; 
         return;
       }
+      let opH ="";
       for(let i=0; i< str.length; i++){
         const cI = i%colors.length;
         const char = str[i];
