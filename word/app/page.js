@@ -2,8 +2,7 @@ import { Box, Button, Input } from "@mui/material";
 
 export default function Home() {
   const printMessage = () => {
-      const in = document.getElementById("amount");
-      const str = document.getElementById("amount").ariaValueMax.trim();
+      const inP = document.getElementById("amount");
       const op = document.getElementById("output");
       let opH =""; 
       const colors = [
