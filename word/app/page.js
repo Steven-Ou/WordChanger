@@ -21,33 +21,3 @@ export default function Home() {
   );
 }
 
-function printMessage(){
-    if(typeof document === "undefined") {
-      return; // Ensure this runs only in the browser
-    }
-    const str = document.getElementById("amount").ariaValueMax.trim();
-    const op = document.getElementById("output");
-    let opH =""; 
-    const colors = [
-      "red",    // Red
-      "yellow", // Yellow
-      "green",  // Green
-      "cyan",   // Cyan
-      "blue",   // Blue
-      "purple", // Purple
-      "black",  // Black
-      "white"   // White
-    ];
-    
-    if(str === ""){
-      op.innerHTML = "Please enter a valid sentence:"; 
-      return;
-    }
-    for(let i=0; i< str.length; i++){
-      const cI = i%colors.length;
-      const char = str[i];
-      opH += `<span style ="color:${colors[cI]}">${char}</span>`;
-    }
-
-    op.innerHTML = opH; 
-}
