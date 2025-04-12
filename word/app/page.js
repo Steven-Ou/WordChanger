@@ -9,6 +9,8 @@ export default function Home() {
         console.error("Input or output element not found");
         return;
       }
+      
+      const str = inP.value.trim();
       let opH =""; 
       const colors = [
         "red",    // Red
