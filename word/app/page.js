@@ -32,6 +32,7 @@ export default function Home() {
   
       op.innerHTML = opH; 
   }
+}
   
   return (
     <div>
@@ -52,4 +53,3 @@ export default function Home() {
     </div>
   );
 }
-
