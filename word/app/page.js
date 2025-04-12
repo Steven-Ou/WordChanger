@@ -32,7 +32,7 @@ export default function Home() {
         colored += `<span style ="color:${colors}">${str[i]}</span>`;
       }
   
-      op.innerHTML = opH; 
+      op.innerHTML = colored; 
   
 }
   
