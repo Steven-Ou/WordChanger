@@ -2,7 +2,6 @@ import { Box, Button, Input } from "@mui/material";
 
 export default function Home() {
   const printMessage = () => {
-    function printMessage(){
       if(typeof document === "undefined") {
         return; // Ensure this runs only in the browser
       }
@@ -31,7 +30,7 @@ export default function Home() {
       }
   
       op.innerHTML = opH; 
-  }
+  
 }
   
   return (
