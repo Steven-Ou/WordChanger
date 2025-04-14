@@ -17,11 +17,6 @@ export default function Home() {
   ];
   const printMessage = () => {
     const str = inP.value.trim(); 
-
-    if(!inP || !op) {
-      console.error("Input or output element not found");
-      return;
-    }
         
     if(str === ""){
       op.innerHTML = "Please enter a valid sentence:"; 
