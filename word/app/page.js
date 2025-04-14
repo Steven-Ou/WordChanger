@@ -39,7 +39,7 @@ export default function Home() {
       <Box id = "lock" className="flex flex-col gap-y-4 text-colors-white-500 dark:text-white-400">
         <h1 className="change">WELCOME TO WORD COLOR CHANGER</h1>
         <br></br>
-        <h2 id="as" className=" text-white-500 dark:text-white-400">Something Cool Will Happen!</h2>
+        <h2 id="as" className="text-gray-800 dark:text-gray-200">Something Cool Will Happen!</h2>
         <br></br>
         <br></br>
         <div className="ab">
