@@ -22,7 +22,7 @@ export default function Home() {
       setop = "Please enter a valid sentence:"; 
       return;
     }
-    let colored ="";
+    const colored = Array.from(str).map((char, index) => {
     for(let i=0; i< str.length; i++){
       const color = colors[i % colors.length];
       colored += `<span style ="color:${color}">${str[i]}</span>`;
