@@ -25,7 +25,7 @@ export default function Home() {
     const colored = Array.from(str).map((char, index) => {
       const color = colors[i % colors.length];
       colored += `<span style ="color:${color}">${str[i]}</span>`;
-    }
+    }).join("");
 
     op.innerHTML = colored; 
   
