@@ -32,7 +32,7 @@ export default function Home() {
   
   return (
     //Frontend Section:
-    <div>
+    <div className="rounded-xl">
       <Box id = "lock">
         <h1 className="change">WELCOME TO WORD COLOR CHANGER</h1>
         <br></br>
