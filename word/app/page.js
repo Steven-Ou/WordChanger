@@ -49,7 +49,9 @@ export default function Home() {
           placeholder="Enter a sentence" 
           style={{textAlign:"center"}} 
           value={inP} 
-          onChange={(e) => setinP(e.target.value)}>
+          onChange={(e) => setinP(e.target.value)}
+          
+          >
           </Input>
           <Button onClick={printMessage}>Submit</Button>
         </div>
