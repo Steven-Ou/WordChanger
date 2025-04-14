@@ -46,7 +46,7 @@ export default function Home() {
           <Input 
           type="text" 
           id="amount" 
-          className=""
+          className="text-white dark:text-white"
           placeholder="Enter a sentence" 
           style={{textAlign:"center"}} 
           value={inP} 
