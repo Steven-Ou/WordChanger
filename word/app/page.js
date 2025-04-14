@@ -19,7 +19,7 @@ export default function Home() {
     const str = inP.value.trim(); 
         
     if(str === ""){
-      op.innerHTML = "Please enter a valid sentence:"; 
+      setop = "Please enter a valid sentence:"; 
       return;
     }
     let colored ="";
