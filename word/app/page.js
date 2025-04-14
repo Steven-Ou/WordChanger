@@ -26,7 +26,7 @@ export default function Home() {
       const color = colors[i % colors.length];
       return `<span style ="color:${char}">${str[i]}</span>`;
     }).join("");
-    setop = colored;
+    setop (colored);
 };
   
   return (
