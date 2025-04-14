@@ -51,7 +51,9 @@ export default function Home() {
           value={inP} 
           onChange={(e) => setinP(e.target.value)}
           sx={{
-            '::placeholder'
+            '::placeholder':{
+              
+            },
           }}
           >
           </Input>
