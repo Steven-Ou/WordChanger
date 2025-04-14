@@ -30,7 +30,7 @@ export default function Home() {
     let colored ="";
     for(let i=0; i< str.length; i++){
       const color = colors[i % colors.length];
-      colored += `<span style ="color:${colors}">${str[i]}</span>`;
+      colored += `<span style ="color:${color}">${str[i]}</span>`;
     }
   
     op.innerHTML = colored; 
