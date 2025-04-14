@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Box, Button, Input } from "@mui/material";
 
 export default function Home() {
+  //Backend Section:
   const [inP,setinP] = useState("");
   const [op,setop] = useState("");
   const colors = [
@@ -30,6 +31,7 @@ export default function Home() {
 };
   
   return (
+    //Frontend Section:
     <div>
       <Box id = "lock">
         <h1 className="change">WELCOME TO WORD COLOR CHANGER</h1>
