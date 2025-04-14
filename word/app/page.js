@@ -38,7 +38,14 @@ export default function Home() {
         <br></br>
         <br></br>
         <div className="ab">
-          <Input type="text" id="amount" placeholder="Enter a sentence" style={{textAlign:"center"}}></Input>
+          <Input 
+          type="text" 
+          id="amount" 
+          placeholder="Enter a sentence" 
+          style={{textAlign:"center"}} 
+          value={inP} 
+          onChange={(e) => setinP(e.target.value)}>
+          </Input>
           <Button onClick={printMessage}>Submit</Button>
         </div>
         <h3 className="c">Output:</h3>
