@@ -50,7 +50,9 @@ export default function Home() {
           style={{textAlign:"center"}} 
           value={inP} 
           onChange={(e) => setinP(e.target.value)}
-          
+          sx={{
+            '::placeholder'
+          }}
           >
           </Input>
           <Button onClick={printMessage}>Submit</Button>
