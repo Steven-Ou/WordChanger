@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Box, Button, Input } from "@mui/material";
 
 export default function Home() {
+  const [inP,setinP] = useState("");
   const colors = [
     "red",    // Red
     "yellow", // Yellow
