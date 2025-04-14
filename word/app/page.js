@@ -23,10 +23,12 @@ export default function Home() {
       return;
     }
     const colored = Array.from(str).map((char, index) => {
-    for(let i=0; i< str.length; i++){
+
+    }
+    
       const color = colors[i % colors.length];
       colored += `<span style ="color:${color}">${str[i]}</span>`;
-    }
+    
   
     op.innerHTML = colored; 
   
