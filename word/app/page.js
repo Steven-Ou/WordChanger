@@ -16,7 +16,7 @@ export default function Home() {
     "white"   // White
   ];
   const printMessage = () => {
-    const str = inP.value.trim(); 
+    const str = inP.trim(); 
         
     if(str === ""){
       setop = "Please enter a valid sentence:"; 
