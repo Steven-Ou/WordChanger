@@ -16,14 +16,14 @@ export default function Home() {
     "white"   // White
   ];
   const printMessage = () => {
-      
+    const str = inP.value.trim(); 
 
-      if(!inP || !op) {
-        console.error("Input or output element not found");
-        return;
-      }
+    if(!inP || !op) {
+      console.error("Input or output element not found");
+      return;
+    }
       
-      const str = inP.value.trim(); 
+     
       
       
       if(str === ""){
