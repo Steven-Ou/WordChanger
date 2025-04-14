@@ -26,19 +26,19 @@ export default function Home() {
      
       
       
-      if(str === ""){
-        op.innerHTML = "Please enter a valid sentence:"; 
-        return;
-      }
-      let colored ="";
-      for(let i=0; i< str.length; i++){
-        const color = colors[i % colors.length];
-        colored += `<span style ="color:${colors}">${str[i]}</span>`;
-      }
+    if(str === ""){
+      op.innerHTML = "Please enter a valid sentence:"; 
+      return;
+    }
+    let colored ="";
+    for(let i=0; i< str.length; i++){
+      const color = colors[i % colors.length];
+      colored += `<span style ="color:${colors}">${str[i]}</span>`;
+    }
   
-      op.innerHTML = colored; 
+    op.innerHTML = colored; 
   
-  };
+};
   
   return (
     <div>
