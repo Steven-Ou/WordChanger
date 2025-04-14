@@ -22,9 +22,9 @@ export default function Home() {
       setop = "Please enter a valid sentence:"; 
       return;
     }
-    const colored = Array.from(str).map((char, index) => {
+    const colored = Array.from(str).map((char, i) => {
       const color = colors[i % colors.length];
-      colored += `<span style ="color:${color}">${str[i]}</span>`;
+      colored += `<span style ="color:${char}">${str[i]}</span>`;
     }).join("");
     setop = colored;
 };
