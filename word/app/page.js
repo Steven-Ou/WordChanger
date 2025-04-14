@@ -23,13 +23,10 @@ export default function Home() {
       return;
     }
     const colored = Array.from(str).map((char, index) => {
-
-    }
-    
       const color = colors[i % colors.length];
       colored += `<span style ="color:${color}">${str[i]}</span>`;
-    
-  
+    }
+
     op.innerHTML = colored; 
   
 };
