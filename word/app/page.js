@@ -52,7 +52,7 @@ export default function Home() {
           onChange={(e) => setinP(e.target.value)}
           sx={{
             '::placeholder':{
-              
+              color:'white',
             },
           }}
           >
