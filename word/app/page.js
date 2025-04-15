@@ -53,7 +53,11 @@ export default function Home() {
           sx={{
             '::placeholder':{
               color:'white',
+              opacity:1,
             },
+            input:{
+              
+            }
           }}
           >
           </Input>
