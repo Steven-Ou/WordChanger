@@ -56,7 +56,7 @@ export default function Home() {
               opacity:1,
             },
             input:{
-              
+              textAlign:"center",
             }
           }}
           >
