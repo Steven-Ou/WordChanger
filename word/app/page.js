@@ -77,7 +77,7 @@ export default function Home() {
         <div id="output" dangerouslySetInnerHTML={{__html:op}} 
         className="mx-auto flex-col max-w-sm items-center
         gap-x-4 rounded-xl bg-green-200 p-6 shadow-lg outline
-
+        outline-black/5
         
         "></div>
         <script src="script.js"></script>
