@@ -60,6 +60,15 @@ export default function Home() {
               color:"white",
             }
           }}
+          inputProps={{
+            style: {
+              textAlign: "center",
+              color: "white",
+              backgroundColor: "black",
+              borderRadius: "5px",
+              padding: "10px",
+            }
+          }}
           >
           </Input>
           <Button onClick={printMessage}>Submit</Button>
