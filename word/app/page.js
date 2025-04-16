@@ -57,6 +57,7 @@ export default function Home() {
             },
             input:{
               textAlign:"center",
+              color:"white",
             }
           }}
           >
