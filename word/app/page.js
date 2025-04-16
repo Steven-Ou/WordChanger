@@ -74,7 +74,7 @@ export default function Home() {
           <Button onClick={printMessage}>Submit</Button>
         </div>
         <h3 className="c">Output:</h3>
-        <div id="output" dangerouslySetInnerHTML={{__html:op}}></div>
+        <div id="output" dangerouslySetInnerHTML={{__html:op}} className=""></div>
         <script src="script.js"></script>
       </Box>
     </div>
