@@ -74,7 +74,7 @@ export default function Home() {
           <Button onClick={printMessage}>Submit</Button>
         </div>
         <h3 className="c">Output:</h3>
-        <div id="output" dangerouslySetInnerHTML={{__html:op}} className=""></div>
+        <div id="output" dangerouslySetInnerHTML={{__html:op}} className="mx-auto flex-col max-w-sm items-center"></div>
         <script src="script.js"></script>
       </Box>
     </div>
