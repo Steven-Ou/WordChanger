@@ -66,4 +66,10 @@ html, body{
   50%{
     border-color:#34d399;
   }
+  75%{
+    border-color:#facc15;
+  }
+  100%{
+    border-color:#f87171;
+  }
 }
