@@ -33,12 +33,12 @@ export default function Home() {
   return (
     //Frontend Section:
     <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-3xl bg-green-200 
-    p-6 shadow-lg outline outline-black/5 
-    dark:shadow-none dark:outline-white/10
+    p-6 shadow-lg outline outline-black/5 border-4
+    dark:shadow-none dark:outline-white/10 animate-borderColor
     ">
       <Box id = "lock" className="flex flex-col gap-y-4 text-colors-white-500 dark:text-white-400
         rounded-3xl p-6 outline outline-green-800
-        dark:outline-green-800 dark:outline-1 border-4
+        dark:outline-green-800 dark:outline-1 border-4 animate-borderColor
       ">
         <h1 className="change animate-borderColor border-4 rounded-3xl">WELCOME TO WORD COLOR CHANGER</h1>
         <br></br>
