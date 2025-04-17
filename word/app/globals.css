@@ -74,5 +74,5 @@ html, body{
   }
 }
 .animate-borderColor{
-  
+  animation: borderColorChange 4s linear infinite;
 }
