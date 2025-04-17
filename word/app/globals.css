@@ -28,14 +28,10 @@ html, body{
 }
 .change{
   text-align: center;
-  text-decoration: underline;
+  text-decoration: underline dotted;
   font-size: 30px;
   margin: 10px;
   padding: 10px;
-  border: 2px solid black;
-
-  border-radius: 5px;
-  cursor: pointer;
   transition: background-color 0.3s;
   
 }
