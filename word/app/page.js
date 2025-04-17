@@ -52,7 +52,7 @@ export default function Home() {
           onChange={(e) => setinP(e.target.value)}
           sx={{
             '::placeholder':{
-              color:'white',
+              color:'green-300',
               opacity:1,
             },
             input:{
@@ -64,7 +64,7 @@ export default function Home() {
             style: {
               textAlign: "center",
               color: "white",
-              backgroundColor: "green-300",
+              backgroundColor: "green-100",
               borderRadius: "5px",
               padding: "10px",
             }
