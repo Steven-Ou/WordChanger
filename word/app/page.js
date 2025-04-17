@@ -33,7 +33,7 @@ export default function Home() {
   return (
     //Frontend Section:
     <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white 
-    p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 
+    p-6 shadow-lg outline outline-black/5 dark:bg-slate-200
     dark:shadow-none dark:outline-white/10
     ">
       <Box id = "lock" className="flex flex-col gap-y-4 text-colors-white-500 dark:text-white-400">
