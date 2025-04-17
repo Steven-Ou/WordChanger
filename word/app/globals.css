@@ -95,3 +95,6 @@ html, body{
   }
   
 }
+.animate-backgroundColor{
+  animation: backgroundColorChange 4s linear infinite;
+}
