@@ -51,7 +51,7 @@ export default function Home() {
           id="amount" 
           placeholder="Enter a sentence" 
           autoComplete="off"
-          className="transition-all duration-300 ease-in-out"
+          className="transition-all duration-300 ease-in-out border-4 rounded-2xl animate-borderColor"
           style={{textAlign:"center"}} 
           value={inP} 
           onChange={(e) => setinP(e.target.value)}
