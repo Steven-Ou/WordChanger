@@ -32,7 +32,7 @@ export default function Home() {
   
   return (
     //Frontend Section:
-    <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-green-200 
+    <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-3xl bg-green-200 
     p-6 shadow-lg outline outline-black/5 
     dark:shadow-none dark:outline-white/10
     ">
