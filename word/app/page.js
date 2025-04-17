@@ -40,9 +40,13 @@ export default function Home() {
         rounded-3xl p-6 outline outline-green-800
         dark:outline-green-800 dark:outline-1 border-4 animate-borderColor
       ">
-        <h1 className="change animate-borderColor border-4 rounded-3xl">WELCOME TO WORD COLOR CHANGER</h1>
+        <h1 className="change animate-borderColor border-4 rounded-3xl">
+          WELCOME TO WORD COLOR CHANGER
+        </h1>
         <br></br>
-        <h2 id="as" className="text-gray-800 dark:text-gray-500">Something Cool Will Happen!</h2>
+        <h2 id="as" className="text-gray-800 dark:text-gray-500">
+          Something Cool Will Happen!
+        </h2>
         <br></br>
         <br></br>
         <div className="ab">
