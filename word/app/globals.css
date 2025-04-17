@@ -38,7 +38,7 @@ html, body{
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.change:hover{
+.change:autofill{
   background-color: lightgreen;
 }
 #amount{
