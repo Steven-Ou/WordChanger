@@ -40,7 +40,9 @@ export default function Home() {
         rounded-3xl p-6 outline outline-green-800
         dark:outline-green-800 dark:outline-1 border-4 animate-borderColor
       ">
-        <h1 className="change animate-borderColor border-4 rounded-3xl">
+        <h1 className="change animate-borderColor border-4 rounded-3xl
+        animate-backgroundColor
+        ">
           WELCOME TO WORD COLOR CHANGER
         </h1>
         <br></br>
