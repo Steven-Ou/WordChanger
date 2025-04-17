@@ -76,3 +76,22 @@ html, body{
 .animate-borderColor{
   animation: borderColorChange 4s linear infinite;
 }
+
+@keyframes backgroundColorChange {
+  0%{
+    background-color :#f87171;
+  }
+  25%{
+    background-color :#60a5fa;
+  }
+  50%{
+    background-color:#34d399;
+  }
+  75%{
+    background-color:#facc15;
+  }
+  100%{
+    background-color:#f87171;
+  }
+  
+}
