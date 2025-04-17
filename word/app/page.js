@@ -32,14 +32,14 @@ export default function Home() {
   
   return (
     //Frontend Section:
-    <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white 
-    p-6 shadow-lg outline outline-black/5 dark:bg-slate-200
+    <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-green-200 
+    p-6 shadow-lg outline outline-black/5 
     dark:shadow-none dark:outline-white/10
     ">
       <Box id = "lock" className="flex flex-col gap-y-4 text-colors-white-500 dark:text-white-400">
         <h1 className="change">WELCOME TO WORD COLOR CHANGER</h1>
         <br></br>
-        <h2 id="as" className="text-gray-800 dark:text-gray-200">Something Cool Will Happen!</h2>
+        <h2 id="as" className="text-gray-800 dark:text-gray-500">Something Cool Will Happen!</h2>
         <br></br>
         <br></br>
         <div className="ab">
@@ -64,7 +64,7 @@ export default function Home() {
             style: {
               textAlign: "center",
               color: "white",
-              backgroundColor: "black",
+              backgroundColor: "green-200",
               borderRadius: "5px",
               padding: "10px",
             }
