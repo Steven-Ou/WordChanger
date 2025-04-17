@@ -64,7 +64,7 @@ export default function Home() {
             style: {
               textAlign: "center",
               color: "white",
-              backgroundColor: "green-200",
+              backgroundColor: "green-300",
               borderRadius: "5px",
               padding: "10px",
             }
