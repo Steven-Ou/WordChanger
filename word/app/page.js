@@ -37,7 +37,8 @@ export default function Home() {
     dark:shadow-none dark:outline-white/10
     ">
       <Box id = "lock" className="flex flex-col gap-y-4 text-colors-white-500 dark:text-white-400
-        rounded-3xl shadow-lg p-6 
+        rounded-3xl p-6 outline outline-green-800
+        dark:outline-green-800 dark:outline-1
       ">
         <h1 className="change">WELCOME TO WORD COLOR CHANGER</h1>
         <br></br>
