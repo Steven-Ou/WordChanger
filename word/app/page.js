@@ -47,12 +47,13 @@ export default function Home() {
           type="text" 
           id="amount" 
           placeholder="Enter a sentence" 
+          className=""
           style={{textAlign:"center"}} 
           value={inP} 
           onChange={(e) => setinP(e.target.value)}
           sx={{
             '::placeholder':{
-              color:'green-300',
+              color:'green-600',
               opacity:1,
             },
             input:{
