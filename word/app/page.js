@@ -47,7 +47,7 @@ export default function Home() {
           type="text" 
           id="amount" 
           placeholder="Enter a sentence" 
-          className="transition-all"
+          className="transition-all duration-300 ease-in-out"
           style={{textAlign:"center"}} 
           value={inP} 
           onChange={(e) => setinP(e.target.value)}
