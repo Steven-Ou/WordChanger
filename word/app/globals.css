@@ -57,5 +57,8 @@ html, body{
 }
 
 @keyframes borderColorChange {
-  
+  0%{
+    border-color :#f87171;
+    
+  }
 }
