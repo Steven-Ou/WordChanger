@@ -33,9 +33,8 @@ export default function Home() {
   return (
     //Frontend Section:
     <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-3xl bg-green-200 
-    p-6 shadow-lg outline border-4  outline-4 
-    dark:shadow-none dark:outline-white/10 animate-borderColor animate-backgroundColor
-    ">
+    p-6 shadow-lg border-6 dark:shadow-none animate-borderColor animate-backgroundColor">
+
       <Box id = "lock" className="flex flex-col gap-y-4 text-colors-white-500 dark:text-white-400
         rounded-3xl p-6 outline-4 
         dark:outline-4 border-4 animate-borderColor
