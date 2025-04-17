@@ -59,13 +59,13 @@ export default function Home() {
             },
             input:{
               textAlign:"center",
-              color:"green-300",
+              color:"black",
             }
           }}
           inputProps={{
             style: {
               textAlign: "center",
-              color: "white",
+              color: "black",
               backgroundColor: "green-100",
               borderRadius: "5px",
               padding: "10px",
