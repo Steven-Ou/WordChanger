@@ -57,7 +57,7 @@ export default function Home() {
             },
             input:{
               textAlign:"center",
-              color:"white",
+              color:"green-300",
             }
           }}
           inputProps={{
