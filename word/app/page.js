@@ -25,8 +25,10 @@ export default function Home() {
     }
     const colored = Array.from(str).map((char, i) => {
       const color = colors[i % colors.length];
-      return `<span style ="color:${color}">${str[i]}</span>`;
-    }).join("");
+      return (
+        
+      );
+    });
     setop(colored);
 };
   
@@ -88,15 +90,16 @@ export default function Home() {
            disableElevation
           >
           Submit</Button>
+          
         </div>
-        <h3 className=" font-bold text-2xl underline decoration-dashed">OUTPUT:</h3>
-        <div id="output" dangerouslySetInnerHTML={{__html:op}} 
+        <Box id="output" dangerouslySetInnerHTML={{__html:op}} 
         className="mx-auto flex-col max-w-sm items-center
         gap-x-4 rounded-xl bg-green-200 p-6 shadow-lg outline
         outline-black/5 dark:shadow-lg dark:outline-white/10
         text-gray-800 dark:text-gray-200
-        "
-        ></div>
+        ">
+          <h3 className=" font-bold text-2xl underline decoration-dashed">OUTPUT:</h3>
+        </Box>
         <script src="script.js"></script>
       </Box>
     </div>
