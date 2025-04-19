@@ -86,7 +86,8 @@ export default function Home() {
            transition duration-300 ease-in-out"
            variant="text"
            disableElevation
-            >Submit</Button>
+          >
+          Submit</Button>
         </div>
         <h3 className="c">Output:</h3>
         <div id="output" dangerouslySetInnerHTML={{__html:op}} 
