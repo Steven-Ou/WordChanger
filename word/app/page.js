@@ -100,8 +100,8 @@ export default function Home() {
         outline-black/5 dark:shadow-lg dark:outline-white/10
         text-gray-800 dark:text-gray-200
         ">
-          {op}
           <h3 className=" font-bold text-2xl underline decoration-dashed">OUTPUT:</h3>
+          {op}
         </Box>
         <script src="script.js"></script>
       </Box>
