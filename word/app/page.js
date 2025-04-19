@@ -80,7 +80,10 @@ export default function Home() {
           }}
           >
           </Input>
-          <Button onClick={printMessage} className="border-2 animate-borderColor">Submit</Button>
+          <Button onClick={printMessage} 
+          className="bg-blue-500 hover:bg-blue-700 text-white
+           font-bold py-2 px-4 rounded
+            ">Submit</Button>
         </div>
         <h3 className="c">Output:</h3>
         <div id="output" dangerouslySetInnerHTML={{__html:op}} 
