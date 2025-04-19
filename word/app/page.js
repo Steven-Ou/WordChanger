@@ -42,7 +42,7 @@ export default function Home() {
       ">
         <h1 className="change animate-borderColor border-4 rounded-3xl flex flex-col gap-y-4 
         text-colors-white-500 dark:text-white-400 animate-borderColor
-        animate-backgroundColor outline-4
+        animate-backgroundColor outline-4 font-bold text-2xl
         ">
           WELCOME TO WORD COLOR CHANGER
         </h1>
