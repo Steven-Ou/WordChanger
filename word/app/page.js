@@ -29,7 +29,8 @@ export default function Home() {
         <span key={i} style={{ 
           color: color, 
           transition:"color 0.5s ease",
-          fontSize:
+          fontSize:"24px",
+          fontWeight:"bold",
           }}>
           {char}
         </span>
