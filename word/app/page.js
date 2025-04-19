@@ -55,7 +55,7 @@ export default function Home() {
           id="amount" 
           placeholder="Enter a sentence" 
           autoComplete="off"
-          className="transition-all duration-300 ease-in-out"
+          className="transition-all duration-300 ease-in-out border-2"
           style={{textAlign:"center"}} 
           value={inP} 
           onChange={(e) => setinP(e.target.value)}
@@ -80,7 +80,7 @@ export default function Home() {
           }}
           >
           </Input>
-          <Button onClick={printMessage}>Submit</Button>
+          <Button onClick={printMessage} className="border-2 animate-borderColor">Submit</Button>
         </div>
         <h3 className="c">Output:</h3>
         <div id="output" dangerouslySetInnerHTML={{__html:op}} 
