@@ -31,7 +31,8 @@ export default function Home() {
           transition:"color 0.5s ease",
           fontSize:"24px",
           fontWeight:"bold",
-          }}>
+          }}
+        >
           {char}
         </span>
       );
