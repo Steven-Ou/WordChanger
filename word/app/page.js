@@ -89,7 +89,7 @@ export default function Home() {
           >
           Submit</Button>
         </div>
-        <h3 className=" font-bold text-2xl underline">OUTPUT:</h3>
+        <h3 className=" font-bold text-2xl underline decoration-dashed">OUTPUT:</h3>
         <div id="output" dangerouslySetInnerHTML={{__html:op}} 
         className="mx-auto flex-col max-w-sm items-center
         gap-x-4 rounded-xl bg-green-200 p-6 shadow-lg outline
