@@ -94,12 +94,13 @@ export default function Home() {
           Submit</Button>
           
         </div>
-        <Box id="output" dangerouslySetInnerHTML={{__html:op}} 
+        <Box id="output"  
         className="mx-auto flex-col max-w-sm items-center
         gap-x-4 rounded-xl bg-green-200 p-6 shadow-lg outline
         outline-black/5 dark:shadow-lg dark:outline-white/10
         text-gray-800 dark:text-gray-200
         ">
+          {op}
           <h3 className=" font-bold text-2xl underline decoration-dashed">OUTPUT:</h3>
         </Box>
         <script src="script.js"></script>
