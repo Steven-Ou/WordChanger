@@ -109,7 +109,6 @@ export default function Home() {
           <h3 className=" font-bold text-2xl underline decoration-dashed">OUTPUT:</h3>
           {op}
         </Box>
-        <script src="script.js"></script>
       </Box>
     </div>
   );
