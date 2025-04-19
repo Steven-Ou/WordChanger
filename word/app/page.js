@@ -96,7 +96,7 @@ export default function Home() {
         </div>
         <Box id="output"  
         className="mx-auto flex-col max-w-sm items-center
-        gap-x-4 rounded-xl bg-green-200 p-6 shadow-lg outline
+        gap-x-4 rounded-xl p-6 shadow-lg outline
         outline-black/5 dark:shadow-lg dark:outline-white/10
         text-gray-800 dark:text-gray-200
         ">
