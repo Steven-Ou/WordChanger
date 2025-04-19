@@ -82,8 +82,11 @@ export default function Home() {
           </Input>
           <Button onClick={printMessage} 
           className="bg-blue-500 hover:bg-blue-700 text-white
-           font-bold py-2 px-4 rounded
-            ">Submit</Button>
+           font-bold py-2 px-4 rounded text-2xl
+           transition duration-300 ease-in-out"
+           variant="text"
+           disableElevation
+            >Submit</Button>
         </div>
         <h3 className="c">Output:</h3>
         <div id="output" dangerouslySetInnerHTML={{__html:op}} 
