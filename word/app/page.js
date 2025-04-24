@@ -24,7 +24,7 @@ export default function Home() {
       return;
     }
     const colored = Array.from(str).map((char, i) => {
-      const color = colors[];
+      const color = colors[Math.floor(Math.random() * colors.length)];
       return (
         <span key={i} style={{ 
           color: color, 
